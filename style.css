@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Nunito:wght@400;500;600;700&family=Source+Serif+Pro&family=Tenor+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #5372F0;
+}
+
+.wrapper {
+    width: 605px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+}
+
+.wrapper header {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.wrapper .content {
+    margin: 35px 0;
+}
+
+.content .qoute-area {
+    display: flex;
+    justify-content: center;
+}
+
+.qoute-area i {
+    font-size: 15px;
+}
+
+.qoute-area i:first-child {
+    margin: 3px 10px 0 0;
+}
+
+.qoute-area i:last-child {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+
+.qoute-area .qoute {
+    font-size: 22px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.content .author {
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.author span:first-child {
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+
+.wrapper .buttons {
+    border-top: 1px solid #ccc;
+}
+
+.buttons .features {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.features ul {
+    display: flex;
+}
+
+.features ul li {
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5372F0;
+    border: 2px solid #5372F0;
+    border-radius: 50%;
+}
+
+.features ul li:hover {
+    color: #fff;
+    background: #5372F0;
+    transition: all 0.3s ease;
+}
+
+.features button {
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background: #5372F0;
+}
